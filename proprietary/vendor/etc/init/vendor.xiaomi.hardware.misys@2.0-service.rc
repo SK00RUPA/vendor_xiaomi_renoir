@@ -4,5 +4,5 @@ on fs
 
 service vendor.misys@2.0 /vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
     class hal
-    user root
-    group system root
+    user system
+    group system
